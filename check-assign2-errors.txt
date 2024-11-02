@@ -1,0 +1,6 @@
+Error: Shutting down
+Error: Shutting down
+Error: Shutting down
+Error: Shutting down
+Error: Shutting down
+assignment2.sh: Permission denied
