@@ -1,6 +1,6 @@
 ---Host/Student info----
 
-Running on Fri Nov  1 08:52:10 PM EDT 2024
+Running on Fri Nov  1 09:05:19 PM EDT 2024
 Run by raquel - () on host
  Static hostname: pc200580527
       Machine ID: 987f53729ca44db397a19299da176c81
@@ -14,11 +14,9 @@ This script performs many tasks. Please be patient
 To see more about what it is doing as it does it, use the --verbose option
 You may ignore any messages about Open vSwitch or dpkg-preconfigure being unable to re-open stdin
 DO NOT use control-Z when this script is running.
+Network lan deleted
+Network mgmt deleted
+Network lan created
+Network mgmt created
 Launching openwrt
-Retrieving image: Unpack: 100% (1.67GB/s)                                          # Host server1-mgmt found: line 4
-# Host server1-mgmt found: line 5
-# Host server1-mgmt found: line 6
-/home/raquel/.ssh/known_hosts updated.
-Original contents retained as /home/raquel/.ssh/known_hosts.old
----Retrieving assignment2.sh script---
-Failed to retrieve assignment2.sh script using URL 'https://github.com/RaquelMabbayad/COMP2137/raw/main/assignment2.sh'
+Retrieving image: Unpack: 100% (3.18GB/s)                                          Retrieving image: Unpack: 100% (3.18GB/s)                                          Launching server1
