@@ -92,3 +92,28 @@ network_configuration_report() {
 	echo "PUblic IP Address: $public_ip"
 	echo
 } 
+
+#Main script with dialog menu
+show_menu() {
+	dialog --clear --backtitle "System Report Menu" --title "Choose Report" \
+	--menu "Select a report to run:" 15 50 3 \
+	1 "Network Configuration Report" \
+	2 "Hardware Summary Report" \
+	3 "Storage Management Report" 2>temp_choice.txt
+
+	choice=$(<temp_choice.txt)
+	clear
+
+	case $choice in 
+		1) network_configuration_report ;;
+		2) hardware_summary_report ;;
+		3) storage_management_report ;;
+		*) echo "Invalid choice. Existing." ;;
+	esac
+}
+
+#Run the menu
+show_menu
+
+#Clean up
+rm -f temp_choice.txt
