@@ -1,2 +1,0 @@
-Error: Failed instance creation: Failed creating instance from image: open /var/lib/incus/images/a70438359b6958a1f3a161d866d0d2e2a15cacc9dc9867f9e6f5fc9e0fb07b00: no such file or directory
-makecontainers.sh: Failed to create server1 container!
