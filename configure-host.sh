@@ -138,3 +138,4 @@ fi
 
 if [ -n "$desired_hostentry_name" ] && [ -n "$desired_hostentry_ip" ]; then
   change_hostentry
+fi
